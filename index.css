@@ -27,7 +27,9 @@ header nav {
     background-size: 8%;
     background-position: 97%;
     padding-right: 8%;
+    width: 60%;
 }
+
 
 main {
     aspect-ratio: 5/3;
@@ -57,6 +59,16 @@ main .age-rating {
 main .movie-description {
     width: 60%;
 }
+.movie-details {
+    margin-bottom: 2rem;
+}
+.movie-details span {
+    color: red;
+    font-weight: bold;
+}
+.movie-details p {
+    margin: .3rem 0;
+}
 
 .btn-play {
     text-decoration: none;
@@ -64,4 +76,84 @@ main .movie-description {
     background: red;
     padding: .5rem 2rem;
     border-radius: .5rem;
+}
+.btn-play i {
+    margin-left: -1rem;
+}
+.suggestion-heading{ 
+    display: flex;
+    justify-content: space-between;
+}
+.suggestion-heading h2 {
+
+
+}
+.suggestion-heading a {
+    text-decoration: none;
+    color: black;
+}
+.suggestion-container {
+    display: flex;
+    justify-content: space-between;
+    gap:1rem;
+    overflow: auto;
+    padding-bottom: 1rem;
+}
+
+.suggestion-item {
+    border: 1px solid black;
+    padding: .8rem;
+    min-width: 40%;
+}
+
+.suggestion-item a {
+    display: inline-block;
+}
+.suggestion-movie-details {
+    display: flex;
+    gap:.8rem;
+    align-items: center;
+    margin-bottom:.8rem ;
+}
+.suggestion-item .btn-play {
+   padding: .5rem 1.5rem;
+   font-size: .9rem;
+}
+footer {
+    display: flex;
+}
+footer h4 {
+    margin: 0;
+    font-size: 1rem;
+}
+.footer-links {
+    width: 70%;
+}
+footer nav {
+    display: flex;
+    gap:2rem;
+}
+.social-media {
+    display: flex;
+    gap: .2rem;
+}
+.store-links {
+    flex-grow: 1;
+}
+.store-links a {
+    display: block;
+    aspect-ratio: 4.7/1.4;
+    width: 100px;
+    background-color: red; 
+    background-image: url(assets/pngegg.png);
+    background-repeat: no-repeat;
+   
+}
+.appStore {
+    background-position: -10px -48px;
+    background-size: 120px;
+}
+.googlePlay {
+    background-position: -10px -9px;
+    background-size: 120px;
 }
