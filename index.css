@@ -85,7 +85,7 @@ main .movie-description {
     justify-content: space-between;
 }
 .suggestion-heading h2 {
-
+    font-size: 1rem;
 
 }
 .suggestion-heading a {
@@ -133,6 +133,10 @@ footer nav {
     display: flex;
     gap:2rem;
 }
+footer nav a{
+    text-decoration: none;
+    color:gray;
+}
 .social-media {
     display: flex;
     gap: .2rem;
@@ -148,6 +152,15 @@ footer nav {
     background-image: url(assets/pngegg.png);
     background-repeat: no-repeat;
    
+}
+.footer-links p {
+    width: 95%;
+}
+.social-media i:first-child {
+    color:RGB(23, 120, 242);
+}
+.social-media i:last-child {
+    color:red;
 }
 .appStore {
     background-position: -10px -48px;
@@ -166,5 +179,32 @@ footer nav {
         flex: 1 0 100;
         order:1;
         margin: 0 auto 1rem;
+        
+    }
+    header div nav a {
+        text-decoration: none;
+    }
+    .suggestion-item {
+        min-width: 350px;
+    }
+    footer {
+        flex-wrap: wrap;
+
+    }
+    .footer-links {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .footer-links a {
+        margin: 0 10px;
+        white-space: nowrap;
+    }
+    
+
+    
+    .store-links {
+        flex-grow: 0;
     }
 }
