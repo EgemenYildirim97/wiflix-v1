@@ -140,9 +140,11 @@ footer nav a{
 .social-media {
     display: flex;
     gap: .2rem;
+    padding-top: .5rem;
 }
 .store-links {
     flex-grow: 1;
+    padding-left: 1rem;
 }
 .store-links a {
     display: block;
