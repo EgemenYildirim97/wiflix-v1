@@ -21,6 +21,13 @@ header nav {
     width: 2rem;
     height: 2rem;
 }
+.user-controls input {
+    background-image: url(assets/searching-magnifying-glass.png);
+    background-repeat: no-repeat;
+    background-size: 8%;
+    background-position: 97%;
+    padding-right: 8%;
+}
 
 main {
     aspect-ratio: 5/3;
@@ -49,4 +56,12 @@ main .age-rating {
 }
 main .movie-description {
     width: 60%;
+}
+
+.btn-play {
+    text-decoration: none;
+    color: white;
+    background: red;
+    padding: .5rem 2rem;
+    border-radius: .5rem;
 }
